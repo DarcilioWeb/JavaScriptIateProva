@@ -2,10 +2,8 @@ function validar() {
 
     var dado = {};
     dado.email = document.getElementById('emailadmin').value;
-    dado.senha = document.getElementById('senhaadmin').value;
-
-    console.log(dado);
-
+    dado.senha = document.getElementById('senhaadmin').value
+    
     if (validarUsuario(dado) == true) {
 
         location.href="mensagens.html";
